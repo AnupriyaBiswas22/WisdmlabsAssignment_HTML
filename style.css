@@ -146,3 +146,26 @@ figure{
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
+.greyish{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+    padding: 2rem;
+    background-color: #E5E7EB;
+}
+.greyish .quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+
+    max-width: 50%;
+}
+#filler{
+    text-align: left;
+}
+#thor{
+    text-align: right;
+}
