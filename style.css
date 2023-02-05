@@ -264,3 +264,9 @@ footer{
     }
     
 }
+
+nav .topbar .links:hover{
+    background-color: #6D747D;
+    border-width: 5px;
+    border-style: solid;
+}
