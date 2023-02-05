@@ -271,7 +271,17 @@ nav .topbar .links div:hover{
 .darker .placeholder .picbox:hover{
      background-color: darkslategrey;
 }
-.white .calltoaction .btnholder .btn:hover{
+button:hover{
     background-color: #E5E7EB;
     color: #3882F6;
+}
+#thor:hover + .hide{
+    display: block;
+    text-align: right;
+}
+#thor:hover{
+    display: none;
+}
+.hide{
+    display: none;
 }
