@@ -248,9 +248,12 @@ footer{
         display: inline-flex !important;
         flex-wrap: wrap;
     }
+    .darker .details #bigtext{
+        font-size: 30px;
+    }
     .darker .details {
         height: fit-content;
-        width: 50% !important;
+        width: 35% !important;
     }
     .boxes .content{
         display: inline-flex;
