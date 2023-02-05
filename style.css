@@ -1,3 +1,4 @@
+/*Section 0 : The Entire Body*/
 * {
     width: 100%;
     border: 0px;
@@ -5,6 +6,7 @@
     margin: 0px;
     overflow-x: hidden;
 }
+/*Section 1 : The Nav Bar*/
 nav {
     background-color : #1F2937;
     color: #F8FAF8;
@@ -17,7 +19,6 @@ nav {
     padding-right: 0;
 
     display: inline-flex;
-
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
@@ -50,6 +51,7 @@ nav .topbar .links div{
     padding: 1rem;
 }
 
+/*Section 2 : The Darker Section*/
 .darker{
     background-color : #1F2937;
     color: #F9FAF8;
@@ -83,7 +85,6 @@ button{
     padding-bottom: 0.5rem;
     border-radius: 8px;
 }
-
 .darker .details #sign {
     position: relative;
     font-size: 12px;    
@@ -116,6 +117,8 @@ button{
 .darker .placeholder .picbox p{
     text-align: center;
 }
+
+/*Section 3 : The Boxes Section*/
 .boxes .heading {
     display: flex;
     justify-content: center;
@@ -146,6 +149,8 @@ figure{
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
+
+/*Section 4 : The Quote Section*/
 .greyish{
     display: flex;
     justify-content: center;
@@ -170,6 +175,7 @@ figure{
     text-align: right;
 }
 
+/*Section 5 : The Huge-Button Section*/
 .white{
     display: flex;
     flex-direction: column;
@@ -179,7 +185,6 @@ figure{
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-
 .white .calltoaction{
     width: 70%;
 
@@ -223,6 +228,8 @@ figure{
     white-space: nowrap;
     width: fit-content;
 }
+
+/*Section 6 : The Footer*/
 footer{
     background-color: #1F2937;
     width: 100%;
@@ -234,6 +241,8 @@ footer{
     text-align: center;
 }
 
+
+/*Responsiveness Part*/
 @media (max-width: 800px) {
     .darker {
         display: inline-flex !important;
