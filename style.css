@@ -169,3 +169,57 @@ figure{
 #thor{
     text-align: right;
 }
+
+.white{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.white .calltoaction{
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: #3882F6;
+    color:#E5E7EB;
+    
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 8px;
+}
+.white .calltoaction .btntxt{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 3rem;
+}
+.white .calltoaction .btntxt #call{
+    font-size: 36px;
+}
+.white .calltoaction .btntxt #signup{
+    font-size: 18px;
+}
+.white .calltoaction .btnholder{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.white .calltoaction .btnholder .btn{
+    font-size: medium;
+    
+    border-radius: 8px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    
+    white-space: nowrap;
+    width: fit-content;
+}
