@@ -5,3 +5,47 @@
     margin: 0px;
     overflow-x: hidden;
 }
+nav {
+    background-color : #1F2937;
+    color: #F8FAF8;
+
+    width: 100%;
+    
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+
+    display: inline-flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+nav .topbar{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+nav .topbar .logo {
+    width: 40%;
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+nav .topbar .links {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+nav .topbar .links div{
+    position: relative;
+    width: fit-content;
+    padding: 1rem;
+}
