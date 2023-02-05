@@ -265,8 +265,13 @@ footer{
     
 }
 
-nav .topbar .links:hover{
+nav .topbar .links div:hover{
     background-color: #6D747D;
-    border-width: 5px;
-    border-style: solid;
+}
+.darker .placeholder .picbox:hover{
+     background-color: darkslategrey;
+}
+.white .calltoaction .btnholder .btn:hover{
+    background-color: #E5E7EB;
+    color: #3882F6;
 }
