@@ -49,3 +49,70 @@ nav .topbar .links div{
     width: fit-content;
     padding: 1rem;
 }
+
+.darker{
+    background-color : #1F2937;
+    color: #F9FAF8;
+    z-index: 14;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 300px;
+    width: 100%;
+}
+.darker .details{
+    width: 35%;
+}
+.darker .details #bigtext{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.darker .details p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 8px;
+}
+
+.darker .details #sign {
+    position: relative;
+    font-size: 12px;    
+    margin-top: 0.5rem;    
+    max-width: fit-content;
+}
+.darker .placeholder {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-content: center;
+    justify-content: center;
+    
+    width: 35%;
+    height: 100%;
+}
+.darker .placeholder .picbox {
+    padding: 1rem 1rem;
+    height: 60%;
+    width: 90%;
+
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: center;
+    justify-content: center;
+
+    background-color:#6D747D;
+}
+.darker .placeholder .picbox p{
+    text-align: center;
+}
