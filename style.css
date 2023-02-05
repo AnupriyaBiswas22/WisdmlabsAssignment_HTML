@@ -233,3 +233,22 @@ footer{
     color:#F9FAF8;
     text-align: center;
 }
+
+@media (max-width: 800px) {
+    .darker {
+        display: inline-flex !important;
+        flex-wrap: wrap;
+    }
+    .darker .details {
+        height: fit-content;
+        width: 50% !important;
+    }
+    .boxes .content{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    #thor, #filler{
+        font-size: 20px !important;
+    }
+    
+}
