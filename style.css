@@ -223,3 +223,13 @@ figure{
     white-space: nowrap;
     width: fit-content;
 }
+footer{
+    background-color: #1F2937;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-size: larger;
+    color:#F9FAF8;
+    text-align: center;
+}
